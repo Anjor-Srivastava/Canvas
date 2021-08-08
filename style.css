@@ -1,0 +1,31 @@
+body {
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    color: green;
+    font-size: 40px;
+}
+
+#myCanvas {
+    border-width: 10px;
+    background-color: white;
+    border-style: ridge;
+}
+
+span {
+    font-size: 20px;
+}
+
+input {
+    margin-bottom: 15px;
+}
+
+button {
+    cursor: pointer;
+}
+
+select {
+    cursor: pointer;
+}

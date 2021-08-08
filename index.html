@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Canvas</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="icon.png">
+    </head>
+    <body>
+        <section id="avail" style="display: none;">
+            <center>
+                <h1>My first Canvas</h1>
+                <canvas id="myCanvas" width="800" height="600"></canvas>
+                <br>
+                <span>colour-</span>
+                <input type="text" id="colour">
+                <br>
+                <button onclick="clearArea()">Clear</button>
+                <br><br>
+                <select id="shapes">
+                    <option value="sqr">Square</option>
+                    <option value="rec">Rectangle</option>
+                    <option valur="cir">Circle</option>
+                </select>
+            </center>
+        </section>
+        <section id="nan" style="display: none;">
+            <h1>You can't open this website as you need a mouse</h1>
+        </section>
+        <script src="main.js"></script>
+    </body>
+</html>
